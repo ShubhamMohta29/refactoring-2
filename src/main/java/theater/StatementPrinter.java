@@ -63,7 +63,6 @@ public class StatementPrinter {
         return totalAmount;
     }
 
-
     private static String usd(int totalAmount) {
         return NumberFormat.getCurrencyInstance(Locale.US).format(totalAmount / Constants.PERCENT_FACTOR);
     }
